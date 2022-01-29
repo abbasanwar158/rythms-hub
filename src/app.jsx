@@ -3,18 +3,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Home from './components/Home';
+import RoutesHandle from './routes';
 
 const renderApplication = () => {
   ReactDOM.render(
-    <Home /> ,
+    <RoutesHandle /> ,
     document.querySelector('#root')
   );
 }
 
-renderApplication(Home);
+renderApplication();
 
 if (module.hot) {
-  module.hot.accept("./components/Home", () => {
+  module.hot.accept("./components/routes", () => {
     renderApplication();
   });
 }

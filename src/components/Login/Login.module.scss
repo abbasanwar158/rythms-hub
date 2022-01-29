@@ -1,0 +1,21 @@
+.loginContainer {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/951/370/464/guitar-4k-hd-new-music-wallpaper-preview.jpg");
+  height: 100vh;
+  padding: 10em 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.loginCard {
+  width: 40%;
+  border: 1px solid black;
+  margin: 10% auto;
+}
+
+.text-center {
+  text-align: center;
+}

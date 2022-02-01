@@ -6,6 +6,7 @@ import {
   Switch
 } from 'react-router-dom';
 import Login from './components/Login';
+import Signup from './components/Signup';
 import React from 'react';
 
 
@@ -14,6 +15,9 @@ function RoutesHandle() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
+        </Routes>
+        <Routes>
+          <Route path="/signup" element={<Signup/>} />
         </Routes>
       </BrowserRouter>
   );

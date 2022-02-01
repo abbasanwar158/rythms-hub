@@ -6,6 +6,14 @@
   overflow: hidden;
 }
 
+.signupContainer {
+  background-image: url("https://w0.peakpx.com/wallpaper/117/349/HD-wallpaper-music-neon-icon-violet-background-neon-symbols-music-creative-neon-icons-music-sign-music-signs-music-icon-music-icons.jpg");
+  height: 100vh;
+  padding: 10em 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
 .d-flex {
   display: flex;
 }
@@ -21,4 +29,22 @@
 }
 .MuiFilledInput-root {
   opacity: 0.5 !important;
+}
+
+.signup-link {
+  color: rgb(232, 241, 250);
+}
+
+.signup-form-container {
+  background-color: rgba(77, 0, 77, 0.5);
+  border-radius: 20px;
+}
+
+.login-form-container {
+  background-color: rgba(102, 26, 0, 0.5);
+  border-radius: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

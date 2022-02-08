@@ -7,8 +7,8 @@ import {
 } from 'react-router-dom';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Dashboard from './components/Dashboard';
 import React from 'react';
-
 
 function RoutesHandle() {
   return (
@@ -18,6 +18,9 @@ function RoutesHandle() {
         </Routes>
         <Routes>
           <Route path="/signup" element={<Signup/>} />
+        </Routes>
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard/>} />
         </Routes>
       </BrowserRouter>
   );
